@@ -1,0 +1,57 @@
+* { margin: 0; padding: 0; box-sizing:border-box; }
+a { color: #444; }
+html { font-size: 16px; }
+body { font-size: 1rem; }
+#header { background: #000; color: #fff; }
+#main { background: #fff; color: #000; min-height: 50vw; padding: 1rem 1rem; }
+#footer { background: #000; color: #fff; padding: 1rem 1rem; }
+
+#header .inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem;
+}
+#header .inner .logo {
+  flex-basis: 10rem;
+}
+#header .inner .logo a {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: rgb(251, 255, 8);
+  text-decoration: none;
+}
+#header .inner .menu {
+  flex-grow: 1;
+  display: flex;
+  justify-content: flex-start;
+}
+#header .inner .menu a {
+  display: block;
+  margin-right: 1.5rem;
+  color: #eee;
+  text-decoration: none;
+}
+#header .inner .menu a:hover {
+  color: #ccc;
+  text-decoration: underline;
+}
+
+.button {
+  display: inline-block;
+  background: rgb(133, 186, 255);
+  color: #fff;
+  text-decoration: none;
+  border:1px solid rgb(30, 41, 99);
+  border-radius: 0.5rem;
+  line-height: 2;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.button:hover {
+  background: rgb(23, 151, 255);
+}
+.button-wrap { 
+  text-align: right;
+  margin-top: 1rem;
+}
